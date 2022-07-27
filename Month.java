@@ -79,15 +79,16 @@ public class Month {
 		
 	}	
 	//A getMonthNumber method that returns the value in the monthNumber field.	
-	int getMonthNumber(int x){
+	int getMonthNumber(){
 		
-		return monthNumber = x;
+		return monthNumber;
 	} 	
 	//A getMonthName method that returns the name of the month. For example, if the monthNumber field
 	//contains 1, then this method should return “January”. This method should use a switch statement to
-	//match monthNumber to monthName.	
+	//match monthNumber to monthName.'	
 	static String getMonthName(int x){
-		String z = "";
+		
+		String z = null;
 		
 	switch(x) {
 		
@@ -180,10 +181,10 @@ public class Month {
 	} 
 	//An equals method that accepts a Month object as an argument. If the argument object holds the same
 	//data as the calling object, this method should return true. Otherwise, it should return false.
-	public boolean equals(Object Month ){
+	public boolean equals(Month x ){
 		
  
-	    if(Month == new Month()){ return true;}
+	    if(x.getMonthNumber() == getMonthNumber()){ return true;}
 	    else {
 		
 		

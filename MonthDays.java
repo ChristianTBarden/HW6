@@ -1,5 +1,6 @@
 
 public class MonthDays extends Month {
+	
 	//use extends to make MonthDays a subclasss
 	//created MonthDays constructor with a int month and int year argument
 	//constructors are used to create new objects with parameters determining initial state
